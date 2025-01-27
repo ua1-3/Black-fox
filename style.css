@@ -84,28 +84,28 @@ justify-content: center;
     position: relative;
 }
 
-.sidebar .image-text img{
+.sidebar .image_text img{
     width: 50px;
     border-radius: 5px;
     right: 0px;
 }
 
-.sidebar header .image-text{
+.sidebar header .image_text{
     display: flex;
     align-items: center;
 }
 
-header .image-text .header-text{
+header .image_text .header_text{
     display: flex;
     flex-direction: column;
 
 }
 
-.header-text .name{
+.header_text .name{
     font-weight: 600;
 }
 
-.header-text .profession{
+.header_text .profession{
     margin-top: -2px;
 }
 
@@ -141,6 +141,13 @@ header .image-text .header-text{
 .sidebar li a:hover .icons,
 .sidebar li a:hover .text{
     color :var(--sidebar-color);
+}
+
+.sidebar i{
+    color: bisque;
+    height: 25px;
+    width: 35px;
+    font-size: 25px;
 }
 
 /*====section====*/
